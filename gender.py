@@ -8,7 +8,7 @@ import numpy as np
 
 # streamlit page setup
 st.title("Facial Gender Detection")
-st.write("Upload an image to detect emotions.")
+st.write("Upload an image to detect gender.")
 
 # image uploading section
 uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
