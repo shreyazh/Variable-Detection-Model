@@ -7,7 +7,7 @@ from PIL import Image
 import numpy as np
 
 # streamlit page setup
-st.title("Facial Emotion Detection")
+st.title("Facial Gender Detection")
 st.write("Upload an image to detect emotions.")
 
 # image uploading section
